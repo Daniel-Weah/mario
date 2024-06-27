@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Block Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="inputArea">
+        <label for="blockCount">Enter a number (1-8): </label>
+        <input type="number" id="blockCount" min="1" max="8">
+        <button onclick="generateBlocks()">Generate Blocks</button>
+    </div>
+    <div id="gameContainer">
+        <div id="leftSide"></div>
+        <div id="rightSide"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
